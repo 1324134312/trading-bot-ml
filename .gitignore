@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+credentials/
+*.key
+*.pem
+api_keys.json
+
+# Downloaded data and trained model artefacts (regenerate locally)
+/data/
+/models/
+*.pkl
+*.h5
+*.joblib
+*.csv
+*.db
+*.sqlite
+
+# Logs and caches
+*.log
+logs/
+.cache/
+.ipynb_checkpoints/
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
